@@ -117,7 +117,7 @@
 				TargetAttributes = {
 					29B7B6E41CC6DF05002952B1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = C9DF529XG7;
+						DevelopmentTeam = F58W42426F;
 					};
 				};
 			};
@@ -276,9 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = dodge1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JohnCWilliams.dodge1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jCubed.dodge1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -287,9 +288,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = dodge1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.JohnCWilliams.dodge1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jCubed.dodge1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
